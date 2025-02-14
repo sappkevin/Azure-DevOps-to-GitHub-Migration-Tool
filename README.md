@@ -3,6 +3,10 @@
 
 A web-based application that facilitates the migration of repositories and pipelines from Azure DevOps to GitHub.
 
+## Screenshot
+
+![Application Screenshot](public/screenshot.jpg)
+
 ## Features
 
 - Migrate repositories from Azure DevOps to GitHub
