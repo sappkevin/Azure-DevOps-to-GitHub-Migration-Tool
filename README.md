@@ -31,13 +31,13 @@ A web-based application that facilitates the migration of repositories and pipel
 - Code editor
 - Generate encryption key and session secret
 
-# Generate encryption key
+## Generate encryption key
 openssl rand -base64 32
 
-# Generate session secret
+## Generate session secret
 openssl rand -base64 32
 
-**Steps:**
+## Steps:
 1. Clone repository:
 ```bash
 git clone <repository-url>
