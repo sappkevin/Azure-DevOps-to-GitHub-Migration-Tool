@@ -1,7 +1,7 @@
 
 # Azure DevOps to GitHub Migration Tool
 
-A web-based application that facilitates the migration of repositories and pipelines from Azure DevOps to GitHub.
+A web-based application that facilitates the migration of repositories and pipelines from Azure DevOps to GitHub. 
 
 ## Screenshot
 
@@ -10,7 +10,6 @@ A web-based application that facilitates the migration of repositories and pipel
 ## Features
 
 - Migrate repositories from Azure DevOps to GitHub
-- Convert Azure Pipelines to GitHub Actions
 - Support for both personal and organization GitHub accounts
 - Progress tracking for migrations
 - Secure token handling with encryption
@@ -118,6 +117,12 @@ The application uses Personal Access Tokens (PATs) for both Azure DevOps and Git
 - Session tokens expire after 8 hours
 - HTTPS-only communication
 - Cross-Origin Resource Sharing (CORS) protection
+
+## Potential Future Features
+- Automatically convert Azure Pipelines (yaml) to GitHub Actions (yaml) using ChatGPT/Claude API
+
+## Acknowlegements
+- The code base was bootstrap developed using Anthropic Claude and ChatGPT AI
 
 ## Contributing
 
